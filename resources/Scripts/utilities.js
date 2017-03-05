@@ -28,6 +28,7 @@ function make_request(extension) {
         // do something with response
         var response_json = JSON.parse(response);
         createDevices(response_json);
+
     });
 }
 
