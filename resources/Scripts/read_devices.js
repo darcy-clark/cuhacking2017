@@ -24,6 +24,8 @@ function createDevices(myJSON) {
     console.log(deviceArray.length);
     $(document).ready(function(){
         $(device_list).append(" <li class='list-group-item'>" + deviceArray[deviceArray.length - 1].name + "</li>");
+        $(alarm).append(" <li class='list-group-item'>" + deviceArray[deviceArray.length - 1].alarms + "</li>");
+        console.log(alarm)
     });
 }
 
