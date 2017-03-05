@@ -25,10 +25,10 @@ function make_request_all() {
 function make_request(extension) {
 	var client = new HttpClient();
 	client.get('http://cuhackathon-challenge.martellotech.com/' + extension, function(response) {
-    // do something with response
-    var response_json = JSON.parse(response);
-    createDevices(response_json);
-});
+        // do something with response
+        var response_json = JSON.parse(response);
+        createDevices(response_json);
+    });
 }
 
 //Usage
