@@ -16,7 +16,8 @@ function make_request(extension) {
 	client.get('http://cuhackathon-challenge.martellotech.com/' + extension, function(response) {
     // do something with response
     var response_json = JSON.parse(response)
-    console.log (response_json)
+    console.log (response_json);
+    return response_json;
 });
 }
 
