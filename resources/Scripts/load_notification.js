@@ -2,6 +2,19 @@
  * Created by wilsontsang on 2017-03-05.
  */
 
+var HttpClient = function() {
+    this.get = function(aUrl, aCallback) {
+        var anHttpRequest = new XMLHttpRequest();
+        anHttpRequest.onreadystatechange = function() {
+            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                aCallback(anHttpRequest.responseText);
+        };
+
+        anHttpRequest.open( "GET", aUrl, true );
+        anHttpRequest.send( null );
+    }
+};
+
 var deviceCount;
 
 function displayAlerts(device) {
@@ -12,7 +25,7 @@ function displayAlerts(device) {
         }).then(function (data) {
 
             console.log(data.name)
-            $(notification_list).append(" <li class='list-group-item'>" + data.description + "</li>");
+            $(device_list).append(" <li class='list-group-item'>" + data.name + "</li>");
         });
     });
 }
@@ -32,4 +45,6 @@ function getdeviceCount() {
     });
 }
 
-setInterval(getdeviceCount, 10000);
+//setInterval(getdeviceCount, 1000);
+
+getdeviceCount();
