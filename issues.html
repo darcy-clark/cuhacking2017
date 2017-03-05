@@ -25,39 +25,49 @@
 
 <div id="wrapper">
     <div class="overlay"></div>
-
     <!-- Sidebar -->
-    <nav class="navbar navbar-inverse col-lg-2" style="padding:0px" id="sidebar-wrapper" role="navigation">
+    <nav class="navbar navbar-inverse col-lg-2" style="padding:0px;margin-right: -100px" id="sidebar-wrapper" role="navigation">
         <div class ="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Options</a>
+            <a class="navbar-brand" data-toggle="collapse" data-target="#myNavbar" href="#">Options</a>
         </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav sidebar-nav">
-                    <li class="sidebar-brand active">
-                        <a href="#">
-                            Overview
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"> Issues</a>
-                    </li>
-                    <li>
-                        <a href="#"> Devices</a>
-                    </li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand active">
+                    <a href="#">
+                        Overview
+                    </a>
+                </li>
+                <li>
+                    <a href="#"> Issues</a>
+                </li>
+                <li>
+                    <a href="#"> Devices</a>
+                </li>
 
-                </ul>
-            </div>
+            </ul>
+        </div>
     </nav>
     <!-- /#sidebar-wrapper -->
     <!-- Page Content -->
     <!-- /#page-content-wrapper -->
 </div>
 <!-- /#wrapper -->
+
+<div class="container text-center" style="margin-top: 50px">
+    <h2 >List Group With Contextual Classes</h2>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">First item</li>
+        <li class="list-group-item list-group-item-info">Second item</li>
+        <li class="list-group-item list-group-item-warning">Third item</li>
+        <li class="list-group-item list-group-item-danger">Fourth item</li>
+    </ul>
+</div>
+
 
 
 
