@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <title>Time for some Doge</title>
     <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
@@ -10,13 +9,55 @@
     <link rel="stylesheet" type="text/css" href="./startbootstrap-sb-admin-2-gh-pages/dist/css/sb-admin-2.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <meta charset="UTF-8">
-    </head>
-    <title>Title</title>
 
-
-
+</head>
 <body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top " style="background-color: grey; margin-bottom:0;" >
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" style="color: white;" href="index.html">MyNetworkManager&trade;</a>
+            <li> <a class="navbar-brand pull-right" style="color: white;" href="index.html">Welcome, User</a></li>
+
+        </div>
+    </div>
+</nav>
+
+<div id="wrapper">
+    <div class="overlay"></div>
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse col-lg-2" style="padding:0px" id="sidebar-wrapper" role="navigation">
+        <div class ="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" data-toggle="collapse" data-target="#myNavbar" href="#">Options</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand active">
+                    <a href="#">
+                        Overview
+                    </a>
+                </li>
+                <li>
+                    <a href="notification.html"> Issues</a>
+                </li>
+                <li>
+                    <a href="devices.html"> Devices</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <!-- /#page-content-wrapper -->
+</div>
+<!-- /#wrapper -->
 <div class="col-lg-4">
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -30,10 +71,15 @@
         </div>
         <!-- /.panel-body -->
     </div>
+</div>
+
+<footer class="footer">
+    <div class="container-fluid">
+        <a class="text-muted pull-left">Help</a>
+        <a class="text-muted pull-right">Settings</a>
+    </div>
+</footer>
 </body>
-
-
 <script src="./resources/Scripts/load_notification.js"></script>
 <script src="./resources/Scripts/utilities.js"></script>
 </html>
-
