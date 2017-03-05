@@ -2,20 +2,12 @@
  * Created by wilsontsang on 2017-03-05.
  */
 
-var HttpClient = function() {
-    this.get = function(aUrl, aCallback) {
-        var anHttpRequest = new XMLHttpRequest();
-        anHttpRequest.onreadystatechange = function() {
-            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
-                aCallback(anHttpRequest.responseText);
-        };
-
-        anHttpRequest.open( "GET", aUrl, true );
-        anHttpRequest.send( null );
-    }
-};
-
 var deviceCount;
+var listNotifications = new Array()
+$(document).ready(function () {
+    getdeviceCount()
+});
+
 
 function displayAlerts(device) {
 
@@ -24,8 +16,26 @@ function displayAlerts(device) {
             url: "http://cuhackathon-challenge.martellotech.com/devices/" + device
         }).then(function (data) {
 
-            console.log(data.name)
-            $(device_list).append(" <li class='list-group-item'>" + data.name + "</li>");
+            var device = data.name;
+           for(var i = 0; i< data.alarms.length;i++) {
+               console.log(data.alarms)
+                if(data.alarms[0].message){
+                    var alm = data.alarms[0].message
+                }
+                if(data.alarms[0].description ){
+                    var alm = data.alarms.description
+                }
+           }
+
+            if (device !== "HomeGateway" && device !== "Family-Desktop"){
+                var notification = {device: device, alm: alm};
+                listNotifications.push(notification);
+
+                $(notification_list).prepend(" <li class='list-group-item'>" + device + "\r" +
+                    alm + "</li>"
+                );
+            }
+
         });
     });
 }
@@ -45,6 +55,13 @@ function getdeviceCount() {
     });
 }
 
-//setInterval(getdeviceCount, 1000);
+function search(nameKey, myArray){
+    for (var i=0; i < myArray.length; i++) {
+        if (myArray[i].name === nameKey) {
+            console.log(myArray[i].name + " " + nameKey)
+            return true;
+        }
+    }
+}
 
-getdeviceCount();
+
