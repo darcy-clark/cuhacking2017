@@ -15,11 +15,11 @@ function displayAlerts(device) {
         $.ajax({
             url: "http://cuhackathon-challenge.martellotech.com/devices/" + device
         }).then(function (data) {
+            device
+            var device_name = data.name;
 
-            var device = data.name;
-
-                $(device_list).prepend(" <li class='list-group-item'>" + device + "</li>"
-                );
+            $(device_list).prepend(" <li class='list-group-item' id = '"+ device + "' onclick='displayData(this.id)'" +">" + device_name + "</li>"
+            );
 
         });
     });
@@ -40,13 +40,27 @@ function getdeviceCount() {
     });
 }
 
-function search(nameKey, myArray){
-    for (var i=0; i < myArray.length; i++) {
-        if (myArray[i].name === nameKey) {
-            console.log(myArray[i].name + " " + nameKey)
-            return true;
-        }
-    }
+
+function displayData(id) {
+    var newitem = true;
+
+
+    $(document).ready(function () {
+        $.ajax({
+            url: "http://cuhackathon-challenge.martellotech.com/devices/" + id
+        }).then(function (result) {
+
+            console.log(result)
+            $(details).html("");
+            $.each(result, function(k, v) {
+                //display the key and value pair
+                console.log(k)
+                if(k !== "alarms" && k!= "interfaces" && k != "oodl" && k != "battery")
+                    $(details).append("<div class='child'>" + k + ": " + v + "</div>");
+
+            });
+        })
+
+
+    });
 }
-
-
