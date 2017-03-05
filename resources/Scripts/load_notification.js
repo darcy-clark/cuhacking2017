@@ -27,7 +27,7 @@ function displayAlerts(device) {
                 }
            }
 
-            if (device !== "HomeGateway" && device !== "Family-Desktop"){
+            if (device !== "HomeGateway" && device !== "Family-Desktop" && device !== "Dads-Office-Desktop"){
                 var notification = {device: device, alm: alm};
                 listNotifications.push(notification);
 
