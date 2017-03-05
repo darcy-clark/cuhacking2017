@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ced75ce4-6608-4b34-8ef6-d30840aa9857" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Navigation.html" afterPath="$PROJECT_DIR$/Navigation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devices.html" afterPath="$PROJECT_DIR$/devices.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notification.html" afterPath="$PROJECT_DIR$/notification.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,12 +22,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="devices.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="devices.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devices.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,12 +45,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notification.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="notification.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notification.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="357">
+              <caret line="60" column="45" lean-forward="false" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +99,8 @@
         <option value="$PROJECT_DIR$/resources/Scripts/load_notification.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Navigation.html" />
-        <option value="$PROJECT_DIR$/notification.html" />
         <option value="$PROJECT_DIR$/devices.html" />
+        <option value="$PROJECT_DIR$/notification.html" />
       </list>
     </option>
   </component>
@@ -293,7 +298,7 @@
       <workItem from="1488652139961" duration="28460000" />
       <workItem from="1488689086429" duration="5207000" />
       <workItem from="1488696415264" duration="1389000" />
-      <workItem from="1488698285156" duration="4670000" />
+      <workItem from="1488698285156" duration="5017000" />
     </task>
     <task id="LOCAL-00001" summary="Added the index.html file">
       <created>1488652422936</created>
@@ -379,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488719087240</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Incorporated nav bar into other web pages">
+      <created>1488721500145</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1488721500145</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39726000" />
+    <option name="totallyTimeSpent" value="40073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -426,7 +438,8 @@
     <MESSAGE value="Fixed Darcy's Header and home page&#10;" />
     <MESSAGE value="Fixed Darcy's Header and home page&#10;Fixed overlay issues in issues.html" />
     <MESSAGE value="Issues button now works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Issues button now works" />
+    <MESSAGE value="Incorporated nav bar into other web pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incorporated nav bar into other web pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -461,7 +474,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -689,14 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Navigation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -707,9 +716,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/devices.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="60" column="45" lean-forward="false" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
