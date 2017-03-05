@@ -28,7 +28,6 @@ function getdeviceCount() {
         for(var count = 0; count < deviceCount; count++) {
             displayAlerts(count)
         }
-
     });
 }
 
