@@ -36,22 +36,22 @@
             </button>
             <a class="navbar-brand" data-toggle="collapse" data-target="#myNavbar" href="#">Options</a>
         </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav sidebar-nav">
-                    <li class="sidebar-brand active">
-                        <a href="#">
-                            Overview
-                        </a>
-                    </li>
-                    <li>
-                        <a href="notification.html"> Issues</a>
-                    </li>
-                    <li>
-                        <a href="devices.html"> Devices</a>
-                    </li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand active">
+                    <a href="overview.html">
+                        Overview
+                    </a>
+                </li>
+                <li>
+                    <a href="notification.html"> Issues</a>
+                </li>
+                <li>
+                    <a href="devices.html"> Devices</a>
+                </li>
 
-                </ul>
-            </div>
+            </ul>
+        </div>
     </nav>
     <!-- /#sidebar-wrapper -->
     <!-- Page Content -->
@@ -59,7 +59,38 @@
 </div>
 <!-- /#wrapper -->
 
+<div class="col-lg-6" style="margin-left: -30px;padding-right: 0px">
+    <div class="container-fluid">
+        <div class="panel panel-red">
+            <div class="panel-heading">
+                <h3>Devices</h3>
+            </div>
+            <ul id="device_list" class="list-group">
 
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-4 pull-right" style="margin-left: -15px;padding-left:0px;padding-right: 0">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <i class="notifications"></i> Notifications
+        </div>
+        <!-- /.panel-heading -->
+        <div class="panel-body">
+            <div class="list-group" id = "notification_list">
+            </div>
+
+        </div>
+        <!-- /.panel-body -->
+    </div>
+</div>
+
+<script src="./resources/Scripts/utilities.js"></script>
+<script src="./resources/Scripts/read_devices.js"></script>
+<script src="./resources/Scripts/load_notification.js"></script>
 
 <footer class="footer">
     <div class="container-fluid">
