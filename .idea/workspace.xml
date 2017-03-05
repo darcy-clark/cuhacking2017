@@ -5,7 +5,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devices.html" afterPath="$PROJECT_DIR$/devices.html" />
@@ -13,6 +16,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Scripts/read_devices.js" afterPath="$PROJECT_DIR$/resources/Scripts/read_devices.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Scripts/utilities.js" afterPath="$PROJECT_DIR$/resources/Scripts/utilities.js" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 235a4a1... Issues button now works
+=======
 >>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -38,10 +44,13 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="648">
               <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
 =======
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
             <state relative-caret-position="342">
@@ -53,6 +62,9 @@
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 235a4a1... Issues button now works
+=======
 >>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -65,8 +77,13 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="484">
               <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+=======
+            <state relative-caret-position="510">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
             <state relative-caret-position="510">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
@@ -76,6 +93,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="utilities.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/Scripts/utilities.js">
@@ -118,6 +136,13 @@
             <state relative-caret-position="442">
               <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
 >>>>>>> parent of 235a4a1... Issues button now works
+=======
+      <file leaf-file-name="read_devices.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/Scripts/read_devices.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+>>>>>>> parent of 235a4a1... Issues button now works
               <folding />
             </state>
           </provider>
@@ -126,6 +151,7 @@
       <file leaf-file-name="issues.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/issues.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="362">
@@ -144,6 +170,8 @@
 =======
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
             <state relative-caret-position="257">
               <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
@@ -151,6 +179,9 @@
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 235a4a1... Issues button now works
+=======
 >>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -163,9 +194,25 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="70">
               <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding />
+=======
+            <state relative-caret-position="274">
+              <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> parent of 235a4a1... Issues button now works
             </state>
           </provider>
         </entry>
@@ -237,7 +284,10 @@
         <option value="$PROJECT_DIR$/resources/Scripts/load_devices.js" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
         <option value="$PROJECT_DIR$/issues.html" />
         <option value="$PROJECT_DIR$/resources/Scripts/utilities.js" />
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -247,12 +297,15 @@
         <option value="$PROJECT_DIR$/resources/Scripts/utilities.js" />
         <option value="$PROJECT_DIR$/devices.html" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/resources/Scripts/load_notification.js" />
 =======
         <option value="$PROJECT_DIR$/issues.html" />
         <option value="$PROJECT_DIR$/resources/Scripts/utilities.js" />
         <option value="$PROJECT_DIR$/resources/Scripts/read_devices.js" />
         <option value="$PROJECT_DIR$/devices.html" />
+>>>>>>> parent of 235a4a1... Issues button now works
+=======
 >>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -288,8 +341,13 @@
     <panes>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -459,9 +517,13 @@
       <workItem from="1488689086429" duration="5207000" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1488696415264" duration="1389000" />
       <workItem from="1488698285156" duration="3197000" />
       <workItem from="1488719495446" duration="1798000" />
+=======
+      <workItem from="1488696415264" duration="292000" />
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
       <workItem from="1488696415264" duration="292000" />
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -541,6 +603,7 @@
     </task>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <task id="LOCAL-00011" summary="Fixed Darcy's Header and home page&#10;Fixed overlay issues in issues.html">
       <created>1488696726476</created>
       <option name="number" value="00011" />
@@ -568,11 +631,16 @@
     <option name="totallyTimeSpent" value="33959000" />
 >>>>>>> parent of 235a4a1... Issues button now works
 =======
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
     <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="33959000" />
+<<<<<<< HEAD
+>>>>>>> parent of 235a4a1... Issues button now works
+=======
 >>>>>>> parent of 235a4a1... Issues button now works
   </component>
   <component name="ToolWindowManager">
@@ -581,7 +649,11 @@
     <layout>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -624,9 +696,13 @@
     <MESSAGE value="Fixed Darcy's Header and home page&#10;" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <MESSAGE value="Fixed Darcy's Header and home page&#10;Fixed overlay issues in issues.html" />
     <MESSAGE value="push push" />
     <option name="LAST_COMMIT_MESSAGE" value="push push" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Darcy's Header and home page&#10;" />
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
     <option name="LAST_COMMIT_MESSAGE" value="Fixed Darcy's Header and home page&#10;" />
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -669,6 +745,7 @@
     <entry file="file://$PROJECT_DIR$/notification.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -693,6 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -741,6 +820,7 @@
           <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <folding />
         </state>
       </provider>
@@ -785,6 +865,15 @@
         </state>
       </provider>
     </entry>
+=======
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
           <folding>
             <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -936,6 +1025,7 @@
     <entry file="file://$PROJECT_DIR$/Navigation.html">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
@@ -948,6 +1038,8 @@
 >>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -955,6 +1047,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/Scripts/load_alarms.js">
@@ -993,6 +1086,10 @@
     <entry file="file://$PROJECT_DIR$/issues.html">
       <provider selected="true" editor-type-id="text-editor">
 >>>>>>> parent of 235a4a1... Issues button now works
+=======
+    <entry file="file://$PROJECT_DIR$/issues.html">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of 235a4a1... Issues button now works
         <state relative-caret-position="257">
           <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
@@ -1018,6 +1115,7 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 235a4a1... Issues button now works
         </state>
       </provider>
@@ -1030,15 +1128,20 @@
           <folding />
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/devices.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="648">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
 =======
+=======
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
         <state relative-caret-position="342">
@@ -1057,6 +1160,9 @@
         <state relative-caret-position="510">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 235a4a1... Issues button now works
+=======
 >>>>>>> parent of 235a4a1... Issues button now works
 =======
 >>>>>>> parent of 235a4a1... Issues button now works
@@ -1066,10 +1172,17 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/Scripts/load_notification.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/Scripts/read_devices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+>>>>>>> parent of 235a4a1... Issues button now works
 =======
     <entry file="file://$PROJECT_DIR$/resources/Scripts/read_devices.js">
       <provider selected="true" editor-type-id="text-editor">
